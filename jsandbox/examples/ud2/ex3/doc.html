@@ -1,15 +1,68 @@
-<main class="container">
-  <div class="clock">
-    <div class="numbers">
-      <div class="twelve">12</div>
-      <div class="three">3</div>
-      <div class="six">6</div>
-      <div class="nine">9</div>
-    </div>
-    <div class="arrows">
-      <div class="hour"></div>
-      <div class="minute"></div>
-      <div class="second"></div>
-    </div>
-  </div>
-</main>
+<article id="wikiArticle">
+	<div class="summary">
+	<p>Este capítulo se da un repaso a las funciones</p>
+	</div>
+
+	<h2>Funciones</h2>
+
+	<p>Una definición de función (también denominada declaración de función o expresión de función) consta de la palabra clave function, seguida de:</p>
+	<ul>
+	  <li>El nombre de la función.</li>
+	  <li>Una lista de parámetros de la función, entre paréntesis y separados por comas.
+		Las declaraciones de JavaScript que definen la función, encerradas entre llaves, { ... }.</li>
+	</ul>
+
+	<p>Por ejemplo, el siguiente código define una función que calcula el doble de la variable número:</p>
+
+
+	<pre onclick="funcionDoble()">  let numero = 5;
+	  funcionDoble(numero);
+	  function  funcionDoble(n){       
+		alert (2 * n);
+	  } 
+	</pre>
+
+	<p>La principal ventaja de las funciones es que permiten la reutilización de código y,
+	  por lo tanto, ser más rápidos a la hora de programar.</p>
+
+	<p>Por otro lado, las funciones pueden realizar acciones, pero también devolver variables: números, strings, objetos.</p>
+
+	<h4>Paso por valor</h4>
+
+	<p>En JavaScript, cuando asignamos un valor a una variable, o pasamos un argumento a una función, este proceso siempre se hace “por valor” (by value en inglés). 
+	  Estrictamente hablando, JavaScript no nos ofrece la opción de pasar o asignar “por referencia” (by reference en inglés), como en otros lenguajes. 
+
+	  </p><pre onclick="porReferencia()">    let a = 'hola';
+		let b = a; // asignamos valor de `a` a `b`.
+		a += '!'; // cambiamos valor de `a` añadiendo ! al final
+		//¿Cuánto valdrán a y b ahora?
+	  </pre>
+
+	  <p>Ahora con una función</p>
+
+	  <pre onclick="porReferenciaF()">    function(str){
+		  str = 'otra cosa';
+		  return str;
+		};
+		
+		let l = '1';
+		cfoo(l);
+		// ¿Cuánto valdrá l?
+	  </pre>
+
+	  <p>Lo interesante en nuestro caso, es que cuando una variable hace referencia a un objeto (Object, Array o Function), el “valor” es la referencia en sí.</p><p></p>
+	  
+
+	  <p>Cuando asignamos valores primitivos (Boolean, Null, Undefined, Number, String y Symbol), el valor asignado es una copia del valor que estamos asignando. 
+		Pero cuando asignamos valores NO primitivos o complejos (Object, Array y Function), JavaScript copia “la referencia”, lo que implica que no se copia el valor en sí, si no una referencia a través de la cual accedemos al valor original.</p>
+
+	<br>
+	<br>
+	<div style="text-align: right;" class="prevnext">
+		<p>
+		<a href="JavaScript3.html" style="float: left;" class="new" rel="nofollow">« Anterior</a>
+		<a href="index.html" class="new" rel="nofollow">Siguiente  »</a></p>
+	</div><p></p>
+
+	<h4 style="line-height: 30px; font-size: 2.14286rem;" id="sect1">&nbsp;</h4>
+</article>
