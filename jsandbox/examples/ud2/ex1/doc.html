@@ -1,68 +1,70 @@
 <article id="wikiArticle">
-                
-<div class="summary">
-<p>Este capítulo analizan las principales variables que existen en JavaScript y sus propiedades.</p>
-</div>
+  <div class="summary">
+    <p>Este ejemplo analizan las principales variables que existen en JavaScript y sus propiedades.</p>
+  </div>
 
-<h2>Tipos de datos</h2>
+  <h2>Tipos de datos</h2>
 
-<p>Los tipos se dividen en dos grupos, Primitivos y de Objeto.</p>
+  <p>Los tipos se dividen en dos grupos, Primitivos y de Objeto.</p>
 
-<table>
+  <table>
     <thead>
       <tr>
         <th>Tipo</th>
         <th>Características</th>
         <th>Elementos definitorios</th>
-      </tr>   
+      </tr>
     </thead>
-   <tbody>
-    <tr>
-      <td>String</td>
-      <td>Cadenas de texto.</td>
-      <td>Un string es una cadena de caracteres. A cada carácter de una cadena se le asigna una posición, empezando por el primer carácter en la posición 0, el segundo en la posición 1 y así sucesivamente.</td>
-    </tr>
-    <tr>
-      <td>Number</td>
-      <td>Valores numéricos.</td>
-      <td>JavaScript solo tiene un tipo de datos numérico. No hay un tipo específico para los números enteros y de coma flotante.</td>
-    </tr>
-    <tr>
-      <td>Boolean</td>
-      <td>Representa una entidad lógica</td>
-      <td>Puede tener dos valores: true y false.</td>
-    </tr>
-    <tr>
-      <td>null</td>
-      <td>“No valor”.</td>
-      <td>Tiene el valor: null.</td>
-    </tr>
-    <tr>
-      <td>undefined</td>
-      <td>Variable sin  valor asignado</td>
-      <td>Una variable a la cual no se le haya asignado valor tiene el valor undefined.</td>
-    </tr>
-    <tr>
-      <td>Symbol</td>
-      <td>Nuevo en ECMAScript 2015.</td>
-      <td>Symbol es un tipo de datos cuyos valores son únicos e inmutables. Dichos valores pueden ser utilizados como identificadores (claves) de las propiedades de los objetos. </td>
-    </tr>
-    <tr>
-      <td>Object</td>
-      <td>Un valor en memoria al que podemos acceder por un identificador.</td>
-      <td>En JavaScript los objetos pueden ser vistos como una collección de propiedades.</td>
-    </tr>
-   </tbody> 
-</table>
+    <tbody>
+      <tr>
+        <td>String</td>
+        <td>Cadenas de texto.</td>
+        <td>Un string es una cadena de caracteres. A cada carácter de una cadena se le asigna una posición, empezando
+          por el primer carácter en la posición 0, el segundo en la posición 1 y así sucesivamente.</td>
+      </tr>
+      <tr>
+        <td>Number</td>
+        <td>Valores numéricos.</td>
+        <td>JavaScript solo tiene un tipo de datos numérico. No hay un tipo específico para los números enteros y de
+          coma flotante.</td>
+      </tr>
+      <tr>
+        <td>Boolean</td>
+        <td>Representa una entidad lógica</td>
+        <td>Puede tener dos valores: true y false.</td>
+      </tr>
+      <tr>
+        <td>null</td>
+        <td>“No valor”.</td>
+        <td>Tiene el valor: null.</td>
+      </tr>
+      <tr>
+        <td>undefined</td>
+        <td>Variable sin valor asignado</td>
+        <td>Una variable a la cual no se le haya asignado valor tiene el valor undefined.</td>
+      </tr>
+      <tr>
+        <td>Symbol</td>
+        <td>Nuevo en ECMAScript 2015.</td>
+        <td>Symbol es un tipo de datos cuyos valores son únicos e inmutables. Dichos valores pueden ser utilizados como
+          identificadores (claves) de las propiedades de los objetos. </td>
+      </tr>
+      <tr>
+        <td>Object</td>
+        <td>Un valor en memoria al que podemos acceder por un identificador.</td>
+        <td>En JavaScript los objetos pueden ser vistos como una collección de propiedades.</td>
+      </tr>
+    </tbody>
+  </table>
 
 
-<h3>Determinación de tipos</h3>
+  <h3>Determinación de tipos</h3>
 
-<p>El operador typeof devuelve una cadena indicando el el tipo de valor de una variable.</p>
-<p>Podemos ver algunos ejemplos:</p>
+  <p>El operador typeof devuelve una cadena indicando el el tipo de valor de una variable.</p>
+  <p>Podemos ver algunos ejemplos:</p>
 
 
-<pre class="line-numbers  language-html" onclick="mostrarTipos()">  let nombre = "Sergio";
+  <pre class="line-numbers  language-html" onclick="mostrarTipos()">  let nombre = "Sergio";
   alert(typeof nombre);
   
   let paquetes = 3;
@@ -73,12 +75,16 @@
 </pre>
 
 
-<h3>Conversión de tipos</h3>
+  <h3>Conversión de tipos</h3>
 
-<p>parseInt() y parseFloat() son funciones creadas para parsear un string y devolver un número si es posible. Los espacios iniciales y finales se ignoran.</p>
-<p>JavaScript analiza la cadena para extraer las cifras que encuentre al principio. Estas cifras al principio del string son las que se transforman a tipo numérico. Cuando se encuentra el primer carácter no numerico se ignora el resto de la cadena. Si el primer carácter encontrado no es convertible a número, el resultado será NaN (Not a Number).</p>
-Ejemplos:
-<pre class="line-numbers  language-html" onclick="pasarAEnteros()">        let e1 = parseInt("1Sergio");
+  <p>parseInt() y parseFloat() son funciones creadas para parsear un string y devolver un número si es posible. Los
+    espacios iniciales y finales se ignoran.</p>
+  <p>JavaScript analiza la cadena para extraer las cifras que encuentre al principio. Estas cifras al principio del
+    string son las que se transforman a tipo numérico. Cuando se encuentra el primer carácter no numerico se ignora el
+    resto de la cadena. Si el primer carácter encontrado no es convertible a número, el resultado será NaN (Not a
+    Number).</p>
+  Ejemplos:
+  <pre class="line-numbers  language-html" onclick="pasarAEnteros()">        let e1 = parseInt("1Sergio");
         alert(e1);
 
         let e2 = parseInt("Ser1gio1");
@@ -91,14 +97,17 @@ Ejemplos:
         alert(e2); 
 </pre>
 
-<p>Cuando el valor no es un string, JavaScript hace primero una conversión implícita a string. Esta conversión, en el caso de objetos, se hace llamando al método toString(). Podemos reescribir este método para algunos objetos si nos interesa asegurarnos de que devuelvan un string convertible a número.</p>
+  <p>Cuando el valor no es un string, JavaScript hace primero una conversión implícita a string. Esta conversión, en el
+    caso de objetos, se hace llamando al método toString(). Podemos reescribir este método para algunos objetos si nos
+    interesa asegurarnos de que devuelvan un string convertible a número.</p>
 
 
-<h3>El dinamismo de Javascript</h3>
+  <h3>El dinamismo de Javascript</h3>
 
-<p>Los tipos de JavaScript son dinámicos JavaScript tiene tipos dinámicos. Esto significa que la misma variable se puede usar para contener diferentes tipos de datos:</p>
-Ejemplos:
-<pre class="line-numbers  language-html" onclick="tiposDinamicos()">  let variableMareada = "Sergio";
+  <p>Los tipos de JavaScript son dinámicos JavaScript tiene tipos dinámicos. Esto significa que la misma variable se
+    puede usar para contener diferentes tipos de datos:</p>
+  Ejemplos:
+  <pre class="line-numbers  language-html" onclick="tiposDinamicos()">  let variableMareada = "Sergio";
   alert(typeof variableMareada);
   
   variableMareada = 3;
@@ -108,10 +117,11 @@ Ejemplos:
   alert(typeof variableMareada);
 </pre>
 
-<div style="background-color: #FED9B7;">
-<p>¡¡¡Cuidado!!!: si en vez de ejecutar el ejemplo anterior, ejecutamos este, nos daría error. Piensa, y si no sabes por qué, pulsa sobre el código</p>
-</div>
-<pre onclick="errorSobredeficion()" style="background-color: #FED9B7;">  let variableMareada = "Sergio";
+  <div style="background-color: #FED9B7;">
+    <p>¡¡¡Cuidado!!!: si en vez de ejecutar el ejemplo anterior, ejecutamos este, nos daría error. Piensa, y si no sabes
+      por qué, pulsa sobre el código</p>
+  </div>
+  <pre onclick="errorSobredeficion()" style="background-color: #FED9B7;">  let variableMareada = "Sergio";
   alert(typeof variableMareada);
   
   let variableMareada = 3;
@@ -121,11 +131,11 @@ Ejemplos:
   alert(typeof variableMareada);
 </pre>
 
-<h3>La concatenación: el uso de +</h3>
+  <h3>La concatenación: el uso de +</h3>
 
-<p>Si el + suma o concatena va a depender del contexto. Veamos algunos ejemplos</p>
+  <p>Si el + suma o concatena va a depender del contexto. Veamos algunos ejemplos</p>
 
-<pre onclick="usoDelMas()">        let sumaa = 3 + 2;
+  <pre onclick="usoDelMas()">        let sumaa = 3 + 2;
         let sumab = 3 + "2";
         let sumac = 5 + 2 + "Sergio";
         let sumad = 5 + "Sergio" + 2;
@@ -133,21 +143,22 @@ Ejemplos:
         let sumaf = 5 + 2 + "Sergio" + (2 + 4);
 </pre>
 
-Si queremos forzar la concatenación de dos números podemos utilizar las comillas
+  Si queremos forzar la concatenación de dos números podemos utilizar las comillas
 
-<pre onclick="forzarConcatenacion()">        let conc1 = '19' + '67';    // ¿Qué tipo tendrá la variable conc?
+  <pre onclick="forzarConcatenacion()">        let conc1 = '19' + '67';    // ¿Qué tipo tendrá la variable conc?
         let conc2 = 19 + '67';      // ¿Y ahora?
         let conc3 = '19' + 67;      // ¿Y ahora?
         let conc4 = 19 + 67;      // Finalmente
 </pre>
 
-<div style="text-align: right;" class="prevnext">
+  <div style="text-align: right;" class="prevnext">
     <p>
-	<a href="JavaScript1.html" style="float: left;" class="new" rel="nofollow">« Anterior</a>
-	<a href="JavaScript3.html" class="new" rel="nofollow">Siguiente  »</a></p>
-</div><p></p>
+      <a href="JavaScript1.html" style="float: left;" class="new" rel="nofollow">« Anterior</a>
+      <a href="JavaScript3.html" class="new" rel="nofollow">Siguiente »</a>
+    </p>
+  </div>
+  <p></p>
 
-<h4 style="line-height: 30px; font-size: 2.14286rem;" id="sect1">&nbsp;</h4>
-                  
-                
-              </article>
+  <h4 style="line-height: 30px; font-size: 2.14286rem;" id="sect1">&nbsp;</h4>
+
+</article>

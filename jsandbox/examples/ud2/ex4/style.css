@@ -1,15 +1,5 @@
-.ani-boxes > div {
-  background: #f2f2f2;
-  color: #fff;
-  border-radius: 4px;
-  padding: 1em;
-  margin: 0 0 1em;
-  width: 300px;
-}
-.ani-boxes:nth-child(even) > div {
-  background: #27b4a8;
-}
-
-.ani-boxes:nth-child(odd) > div {
-  background: #f4645f;
-}
+/*////////////////////////////////////
+//		En este ejemplo				//
+//      el archivo .css				//
+//      está vacío.					//
+////////////////////////////////////*/
