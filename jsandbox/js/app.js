@@ -228,6 +228,8 @@ $(document).ready(function () {
 	$("#run").click(function () {
 		body.html(editorHTML.getValue());
 		styleTag.text(editorCSS.getValue());
+		// Se incluye jquery también para que funcionen los ejemplos que lo usan.
+		let scriptjQueryTagBody = $('<script src="js/tools/jquery-3.6.0.min.js">').appendTo(body);
 		let scriptTagBody = $('<script>').appendTo(body);
 		// si hay un error lo capturamos para mostrarlo también en la consola.
 		// * BUG REPORTADO: solo muestra console.log al cargar el documento. No se actualiza con RUN.

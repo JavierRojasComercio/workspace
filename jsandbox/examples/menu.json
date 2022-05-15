@@ -108,7 +108,7 @@
           "ej": [
             {
               "numero": "1",
-              "info": "una cosa "
+              "info": "Cómo está hecho este editor: AJAX con jQuery"
             },
             {
               "numero": "2",
@@ -129,6 +129,30 @@
             {
               "numero": "2",
               "info": "otra cosa"
+            },
+            {
+              "numero": "3",
+              "info": "otra cosa"
+            }
+          ]
+        }
+      },
+      {
+        "numero": "9",
+        "titulo": "Animaciones CSS",
+        "ejemplos": {
+          "ej": [
+            {
+              "numero": "1",
+              "info": "Transformaciones: rotate y border-radius"
+            },
+            {
+              "numero": "2",
+              "info": "Animaciones de botones"
+            },
+            {
+              "numero": "3",
+              "info": "Transformaciones, animaciones y un poco de JS: Día y noche"
             }
           ]
         }
