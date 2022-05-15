@@ -153,6 +153,22 @@
             {
               "numero": "3",
               "info": "Transformaciones, animaciones y un poco de JS: Día y noche"
+            },
+            {
+              "numero": "4",
+              "info": "Botón enviar"
+            },
+            {
+              "numero": "5",
+              "info": "Taza de café"
+            },
+            {
+              "numero": "6",
+              "info": "Cargando con tres puntos"
+            },
+            {
+              "numero": "7",
+              "info": "Cargando con barras"
             }
           ]
         }
