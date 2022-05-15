@@ -1,0 +1,293 @@
+{
+    "planets": {
+        "planet": [
+            {
+                "name": "Mercury",
+                "materialName": "materialMercury",
+                "info": {
+                    "name": "Mercurio",
+                    "size": "4.880 Km",
+                    "distance": "57.910.000 Km",
+                    "rotation": "58,6 días",
+                    "orbit": "87,97 días",
+                    "moons": "0"
+                },
+                "resolution": 32,
+                "size": 0.2,
+                "position": {
+                    "x": 75.7,
+                    "y": 0,
+                    "z": 0
+                },
+                "pathMaterial": "mercury.jpg",
+                "speed": 0.009
+            },
+            {
+                "name": "venus",
+                "materialName": "materialVenus",
+                "info": {
+                    "name": "Venus",
+                    "size": "12.104 Km",
+                    "distance": "108.200.000 Km",
+                    "rotation": "243 días",
+                    "orbit": "224,7 días",
+                    "moons": "0"
+                },
+                "resolution": 32,
+                "size": 0.20,
+                "position": {
+                    "x": 80.8,
+                    "y": 0,
+                    "z": 0
+                },
+                "pathMaterial": "venus.jpg",
+                "speed": 0.007
+            },
+            {
+                "name": "earth",
+                "materialname": "materialEarth",
+                "info": {
+                    "name": "La Tierra",
+                    "size": "12.756 Km",
+                    "distance": "149.600.000 Km",
+                    "rotation": "23.93 horas",
+                    "orbit": "365.256 días",
+                    "moons": "1"
+                },
+                "resolution": 32,
+                "size": 0.22,
+                "position": {
+                    "x": 84.9,
+                    "y": 0,
+                    "z": 0
+                },
+                "moons": {
+                    "moon": {
+                        "name": "Luna",
+                        "materialname": "materialmoon",
+                        "resolution": 32,
+                        "size": 0.033,
+                        "position": {
+                            "x": 0.23,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "pathMaterial": "moon.jpg",
+                        "speed": 0.01
+                    }
+                },
+                "pathMaterial": "earth.jpg",
+                "speed": 0.005
+            },
+            {
+                "name": "mars",
+                "materialname": "materialMars",
+                "info": {
+                    "name": "Marte",
+                    "size": "6.794 Km",
+                    "distance": "227.940.000 Km",
+                    "rotation": "24.62 horas",
+                    "orbit": "686.98 días",
+                    "moons": "0"
+                },
+                "resolution": 32,
+                "size": 0.4,
+                "position": {
+                    "x": 92.7,
+                    "y": 0,
+                    "z": 0
+                },
+                "pathMaterial": "mars.jpg",
+                "speed": 0.003
+            },
+            {
+                "name": "jupiter",
+                "materialname": "materialJupiter",
+                "info": {
+                    "name": "Júpiter",
+                    "size": "142.984 Km",
+                    "distance": "778.330.000 Km",
+                    "rotation": "9.84 horas",
+                    "orbit": "11.86 años",
+                    "moons": "16"
+                },
+                "resolution": 32,
+                "size": 0.9,
+                "position": {
+                    "x": 147.8,
+                    "y": 0,
+                    "z": 0
+                },
+                "moons": {
+                    "ganimedes": {
+                        "name": "Ganímedes",
+                        "materialname": "materialmoon",
+                        "resolution": 32,
+                        "size": 0.03,
+                        "position": {
+                            "x": 0.94,
+                            "y": 0,
+                            "z": 1
+                        },
+                        "pathMaterial": "moon.jpg",
+                        "speed": 0.8
+                    },
+                    "io": {
+                        "name": "Ío",
+                        "materialname": "materialmoon",
+                        "resolution": 32,
+                        "size": 0.03,
+                        "position": {
+                            "x": 0.94,
+                            "y": -1,
+                            "z": 0
+                        },
+                        "pathMaterial": "moon.jpg",
+                        "speed": 1.2
+                    },
+                    "calisto": {
+                        "name": "Calisto",
+                        "materialname": "materialmoon",
+                        "resolution": 32,
+                        "size": 0.05,
+                        "position": {
+                            "x": 0.94,
+                            "y": -1.1,
+                            "z": -1
+                        },
+                        "pathMaterial": "moon.jpg",
+                        "speed": 1.5
+                    },
+                    "amaltea": {
+                        "name": "Amaltea",
+                        "materialname": "materialmoon",
+                        "resolution": 32,
+                        "size": 0.04,
+                        "position": {
+                            "x": -0.94,
+                            "y": -0.9,
+                            "z": 0.93
+                        },
+                        "pathMaterial": "moon.jpg",
+                        "speed": 0.01
+                    },
+                    "adrastea": {
+                        "name": "Adrastea",
+                        "materialname": "materialmoon",
+                        "resolution": 32,
+                        "size": 0.03,
+                        "position": {
+                            "x": -0.94,
+                            "y": -1,
+                            "z": -1
+                        },
+                        "pathMaterial": "moon.jpg",
+                        "speed": 2.01
+                    },
+                    "himalaya": {
+                        "name": "Himalaya",
+                        "materialname": "materialmoon",
+                        "resolution": 32,
+                        "size": 0.03,
+                        "position": {
+                            "x": -0.94,
+                            "y": -1,
+                            "z": -1
+                        },
+                        "pathMaterial": "moon.jpg",
+                        "speed": 1.01
+                    }
+                },
+                "pathMaterial": "jupiter.jpg",
+                "speed": 0.001
+            },
+            {
+                "name": "saturn",
+                "materialname": "materialSaturn",
+                "info": {
+                    "name": "Saturno",
+                    "size": "108.728 Km",
+                    "distance": "1.429.400.000 Km",
+                    "rotation": "10.23 horas",
+                    "orbit": "29.46 años",
+                    "moons": "18"
+                },
+                "resolution": 32,
+                "size": 0.7,
+                "position": {
+                    "x": 212.9,
+                    "y": 0,
+                    "z": 0
+                },
+                "disc": {
+                    "name": "saturnDisc",
+                    "materialname": "discMaterial",
+                    "diameter": 0.7,
+                    "thickness": 0.6,
+                    "tessellation": 64,
+                    "pathMaterial": "saturnmap.jpg"
+                },
+                "pathMaterial": "saturn.jpg",
+                "speed": 0.0009
+            },
+            {
+                "name": "uranus",
+                "materialname": "materialUranus",
+                "info": {
+                    "name": "Urano",
+                    "size": "51.118 Km",
+                    "distance": "2.870.990.000 Km",
+                    "rotation": "17.9 horas",
+                    "orbit": "84.01 años",
+                    "moons": "15"
+                },
+                "resolution": 32,
+                "size": 0.5,
+                "position": {
+                    "x": 350,
+                    "y": 0,
+                    "z": 0
+                },
+                "pathMaterial": "uranus.jpg",
+                "speed": 0.0007
+            },
+            {
+                "name": "neptune",
+                "materialname": "materialNeptune",
+                "info": {
+                    "name": "Neptuno",
+                    "size": "49.532 Km",
+                    "distance": "4.504.300.000 Km",
+                    "rotation": "16.11 horas",
+                    "orbit": "164.8 años",
+                    "moons": "8"
+                },
+                "resolution": 32,
+                "size": 0.4,
+                "position": {
+                    "x": 520.4,
+                    "y": 0,
+                    "z": 0
+                },
+                "pathMaterial": "neptune.jpg",
+                "speed": 0.0005
+            }
+        ],
+        "belt": [
+            {
+                "name": "MarsBelt",
+                "pathMaterial": "moon.jpg",
+                "sizeAsteroid": 400,
+                "minAsteroidRing": 110,
+                "maxAsteroidRing": 141
+            },
+            {
+                "name": "KuiperBelt",
+                "pathMaterial": "moon.jpg",
+                "sizeAsteroid": 150,
+                "minAsteroidRing": 525,
+                "maxAsteroidRing": 950
+            }
+        ]
+    }
+}
