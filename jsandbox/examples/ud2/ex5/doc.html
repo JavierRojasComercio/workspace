@@ -1,7 +1,10 @@
-<p class="title">Debido a las ventajas del hositing en JavaScript, podrías usar la función saludo() antes de que sea declarada en el código, tal y como hacemos aquí:</p>
+<p>Podemos definir las funciones flecha de muchas formas.</p>
 <script>
-	saludo();
-	function saludo() {
-	alert('Hola, colega!');
-	}
+// ES5
+var sumaEs5 = function(x, y) {
+	return x + y;
+};
+// ES6
+var sumaEs6 = (x, y) => { return x + y };
+alert(sumaEs6(2, 4)); // 6
 </script>
