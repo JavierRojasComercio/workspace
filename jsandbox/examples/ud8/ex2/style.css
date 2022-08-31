@@ -1,1 +1,33 @@
-/**/
+@keyframes turning {
+	0% {
+		border-radius: 0 0 0 0;
+		transform: rotate(0deg);
+	}
+	25% {
+		border-radius: 50% 0 0 0;
+		transform: rotate(45deg);
+	}
+	50% {
+		border-radius: 50% 50% 0 0;
+		transform: rotate(90deg);
+	}
+	75% {
+		border-radius: 50% 50% 50% 0;
+		transform: rotate(135deg);
+	}
+	100% {
+		border-radius: 50% 50% 50% 50%;
+		transform: rotate(180deg);
+	}
+}
+
+div {
+	width: 120px;
+	height: 120px;
+	background-color: violet;
+	margin: 50px;
+	animation: turning 2s ease-out 1s infinite alternate;
+}
+div:hover {
+	animation-play-state: paused;
+}

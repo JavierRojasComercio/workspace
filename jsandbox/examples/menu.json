@@ -28,11 +28,31 @@
           "ej": [
             {
               "numero": "1",
-              "info": "una cosa "
+              "info": "Tipos de datos"
             },
             {
               "numero": "2",
-              "info": "otra cosa"
+              "info": "Arrays"
+            },
+            {
+              "numero": "3",
+              "info": "Funciones"
+            },
+            {
+              "numero": "4",
+              "info": "Elevar variables y funciones (Hoisting)"
+            },
+            {
+              "numero": "5",
+              "info": "Funciones flecha (arrow function)"
+            },
+            {
+              "numero": "6",
+              "info": "Tabla de multipicar"
+            },
+            {
+              "numero": "7",
+              "info": "Colección de ejercicios sencillos"
             }
           ]
         }
@@ -45,6 +65,30 @@
             {
               "numero": "1",
               "info": "una cosa "
+            },
+            {
+              "numero": "2",
+              "info": "otra cosa"
+            },
+            {
+              "numero": "2",
+              "info": "otra cosa"
+            },
+            {
+              "numero": "2",
+              "info": "otra cosa"
+            },
+            {
+              "numero": "2",
+              "info": "otra cosa"
+            },
+            {
+              "numero": "2",
+              "info": "otra cosa"
+            },
+            {
+              "numero": "2",
+              "info": "otra cosa"
             },
             {
               "numero": "2",
@@ -108,7 +152,7 @@
           "ej": [
             {
               "numero": "1",
-              "info": "una cosa "
+              "info": "Cómo está hecho este editor: AJAX con jQuery"
             },
             {
               "numero": "2",
@@ -129,6 +173,46 @@
             {
               "numero": "2",
               "info": "otra cosa"
+            },
+            {
+              "numero": "3",
+              "info": "otra cosa"
+            }
+          ]
+        }
+      },
+      {
+        "numero": "9",
+        "titulo": "Animaciones CSS",
+        "ejemplos": {
+          "ej": [
+            {
+              "numero": "1",
+              "info": "Transformaciones: rotate y border-radius"
+            },
+            {
+              "numero": "2",
+              "info": "Animaciones de botones"
+            },
+            {
+              "numero": "3",
+              "info": "Transformaciones, animaciones y un poco de JS: Día y noche"
+            },
+            {
+              "numero": "4",
+              "info": "Botón enviar"
+            },
+            {
+              "numero": "5",
+              "info": "Taza de café"
+            },
+            {
+              "numero": "6",
+              "info": "Cargando con tres puntos"
+            },
+            {
+              "numero": "7",
+              "info": "Cargando con barras"
             }
           ]
         }

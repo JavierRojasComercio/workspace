@@ -1,1 +1,17 @@
-/**/
+
+
+h1, h3{
+    text-align: center;
+}
+
+
+
+.rpeligro{
+    background-color: rgb(189, 147, 147);
+}
+
+.resaltado{
+    background-color: rgb(153, 185, 88);
+}
+
+@charset "UTF-8";/*!
